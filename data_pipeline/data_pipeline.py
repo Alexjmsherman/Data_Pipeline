@@ -1,8 +1,8 @@
 __author__ = "alsherman"
 
 import logging
+from .sources_metadata.source_metadata import SourceMetadata
 from Get_Data import download_data
-from .metadata_sources.source_metadata import SourceMetadata
 from Export_Data.create_csv import CSVCreator
 
 
