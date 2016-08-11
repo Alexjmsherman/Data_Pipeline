@@ -1,3 +1,5 @@
+__author__ = 'alsherman'
+
 import urllib
 import zipfile
 import gzip
