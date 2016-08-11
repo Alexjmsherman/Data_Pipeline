@@ -19,11 +19,11 @@ class CSVCreator:
 
     def create_csv(self, sources_metadata):
         """ export one or more csvs
-        
+
         :param sources_metadata: metadata about the source
         """
 
-        # if only one dataframe, convert into a dict to add name
+        # if only one dataframe, add it to a dict to add name
         if not isinstance(self.source_metadata.dataframe, dict):
             self.source_metadata.dataframe = {self.csv_name:self.source_metadata.dataframe}
 
