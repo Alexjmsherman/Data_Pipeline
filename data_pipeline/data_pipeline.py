@@ -2,7 +2,7 @@ __author__ = "alsherman"
 
 import logging
 from Get_Data import download_data
-from Sources_Metadata.source_metadata import SourceMetadata
+from .Sources_Metadata.source_metadata import SourceMetadata
 from Export_Data.create_csv import CSVCreator
 
 
